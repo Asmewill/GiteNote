@@ -79,18 +79,14 @@ ssh git@github.com
 
 克隆远程仓库
 $git clone 仓库URL
-默认情况下git clone 命令本质上就是自动创建了本地的master 分支用于跟踪远程仓库中的master 分支打开项目文件夹\.git\config文件可以看到master分支和远
-
-程仓库master分支的关联
+默认情况下git clone 命令本质上就是自动创建了本地的master 分支用于跟踪远程仓库中的master 分支打开项目文件夹\.git\config文件可以看到master分支和远程仓库master分支的关联
 [remote "origin"]
-	
 url = https://github.com/Asmewill/GitTest1.git
-	
 fetch = +refs/heads/*:refs/remotes/origin/*
-[branch "master"]
-	
+
+[branch "master"]	
 remote = origin
-	merge = refs/heads/master
+merge = refs/heads/master
 
 
 
@@ -120,8 +116,6 @@ git push origin dev
 
 
 
-
-
 问题 如果本地有个master 和远程的 origin/master分支没有建立跟踪关联需要使用
 git branch --set-upstream master origin/origin
 
@@ -133,6 +127,9 @@ git branch –vv
 
 查看当前远程仓库信息
 git remote –v
+
+查看当前远程仓库的分支
+git remote –r
 
 从远程仓库抓取数据到本地
 $ git fetch 远程仓库名
