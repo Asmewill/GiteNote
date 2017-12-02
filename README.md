@@ -159,7 +159,7 @@ git push origin :branch-name   (:不能去掉，代表推送一个空的分支�
 
 
 
-staging area--暂存区
+staging area---暂存区
 work area---工作区
 local repository--本地仓库
 remote repository--远程仓库
