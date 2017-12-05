@@ -130,10 +130,7 @@ $ git fetch 远程仓库名
 $ git merge 远程仓库名/分支名
 
 
-35.
-$ git pull相当于
-$ git fetch
-$git merge远程仓库名/分支名
+35.$ git pull相当于$ git fetch和$git merge远程仓库名/分支名
 
 
 36.查看远程仓库信息
