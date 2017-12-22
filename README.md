@@ -146,7 +146,8 @@ git remote rm 远程仓库名（origin）
 git branch -r -d origin/branch-name 
 git push origin :branch-name   (:不能去掉，代表推送一个空的分支到)
 
-
+40.查看远程分支和本地分支
+git branch -a
 
 
 staging area---暂存区
