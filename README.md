@@ -119,7 +119,7 @@ $ git branch --set-upstream master origin/origin
 $ git branch –vv
 
 
-32.查看当前远程仓库信息
+32.查看远程分支
 $ git branch –r
 
 
@@ -149,6 +149,8 @@ git push origin :branch-name   (:不能去掉，代表推送一个空的分支�
 40.查看远程分支和本地分支
 git branch -a
 
+41.查看远程版本库地址
+git remote -v
 
 staging area---暂存区
 work area---工作区
