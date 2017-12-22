@@ -152,6 +152,10 @@ git branch -a
 41.查看远程版本库地址
 git remote -v
 
+42.将本地的分支dev_shuij推送到远程的master分支上
+git push origin dev_shuij:master
+
+
 staging area---暂存区
 work area---工作区
 local repository--本地仓库
