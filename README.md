@@ -155,6 +155,10 @@ git remote -v
 42.将本地的分支dev_shuij推送到远程的master分支上
 git push origin dev_shuij:master
 
+43.拉取远程分支并创建本地分支
+git branch -r 查看远程分支一下
+git checkout -b dev_shuij origin/dev_shuij
+
 
 staging area---暂存区
 work area---工作区
