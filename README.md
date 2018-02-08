@@ -140,7 +140,7 @@ git remote show [remote-name]
 git remote rename 原名 新名字
 
 38.远程仓库的删除(切断本地所有分支与远程仓库的联系)
-git remote rm 远程仓库名（origin）
+git remote remove 远程仓库名（origin）
 
 39.二句代码删除远程分支
 git branch -r -d origin/branch-name 
