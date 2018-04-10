@@ -90,7 +90,11 @@ merge = refs/heads/master
 
 
 24.注册远程版本库
-$ git remote add origin  https://自己的仓库url地址
+$ git remote add origin  https://自己的仓库url地址
+
+24.1.删除远程版本库
+git remote remove origin
+
 
 25.从远程仓库对应的master分支上拉取代码到本地对应的master分支上update）
 $ git pull origin master
